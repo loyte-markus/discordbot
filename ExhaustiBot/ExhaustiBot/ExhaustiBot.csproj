@@ -134,6 +134,7 @@
   <ItemGroup>
     <Compile Include="CmdHandler.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="modules\Misc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities.cs" />
