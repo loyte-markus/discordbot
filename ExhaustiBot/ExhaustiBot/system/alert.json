@@ -1,3 +1,4 @@
 {
-  "test":"hei discord"
+  "TEST": "hei discord",
+  "WELCOME_&NAME_&BOTNAME": "Hei, {0}! Mitt navn er {1}, hva kan jeg hjelpe deg med?"
 }

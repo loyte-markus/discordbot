@@ -23,5 +23,20 @@ namespace ExhaustiBot
 			if (alerts.ContainsKey(key)) return alerts[key];
 			return "";
 		}
+
+		public static string getFormattedAlert(string key, params object[] param)
+		{
+			if (alerts.ContainsKey(key))
+			{
+				return String.Format(alerts[key], param);
+			}
+
+			return "";
+		}
+
+		public static string getFormattedAlert(string key, object param)
+		{
+			return getFormattedAlert(key, new object[] { param });
+		}
 	}
 }
